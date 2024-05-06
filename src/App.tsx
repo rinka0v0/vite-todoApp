@@ -1,11 +1,8 @@
 import "./App.css";
+import { Button } from "@/components/ui/button";
 
 function App() {
-  return (
-    <div className="text-3xl font-bold underline text-blue-600">
-      Hello world!
-    </div>
-  );
+  return <Button>test App</Button>;
 }
 
 export default App;
